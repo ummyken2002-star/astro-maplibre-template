@@ -1,13 +1,13 @@
 - id: 'bikes'
-  label: 'Bike Lanes'
+  label: 'NYC Bike Lanes'
   toggle: true  
-  visible: false
+  visible: true
   data-type: 'geojson'
   layer-type: 'line'
   url: 'https://data.cityofnewyork.us/resource/mzxg-pwib.geojson?$limit=10000'
   paint:
-    line-color: '#000000'
-    line-width: 3
+    line-color: '#1abc9c'
+    line-width: 2
 
 - id: 'vector-tile'
   label: 'Vector Tiles'
